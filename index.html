@@ -1,17 +1,95 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<title>منصة سند التعليمية</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>منصة سند التعليمية</title>
+    <!-- ربط ملف التنسيق -->
+    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<h1>منصة سند التعليمية</h1>
+    <!-- ====== الرأس والشعار ====== -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="شعار منصة سند" />
+            <h1>منصة سند التعليمية</h1>
+        </div>
+        <p class="slogan">شريكك نحو التميز الأكاديمي</p>
+        <div class="buttons">
+            <a href="#request" class="btn primary">اطلب خدمتك الآن</a>
+            <a href="https://wa.me/966557115545" class="btn whatsapp">تواصل واتساب</a>
+        </div>
+    </header>
 
-<p>مرحباً بكم في منصة سند التعليمية</p>
+    <!-- ====== قسم الخدمات ====== -->
+    <section id="services">
+        <h2>خدماتنا</h2>
+        <div class="services-grid">
+            <div class="service">📚 حلول الاختبارات (كويزات - ميد - فاينل)</div>
+            <div class="service">📝 البحوث العلمية (عربي - إنجليزي)</div>
+            <div class="service">📋 الأسايمنت والواجبات</div>
+            <div class="service">🎓 المشاريع الجامعية</div>
+            <div class="service">📊 عروض البوربوينت</div>
+            <div class="service">🧠 الخرائط الذهنية</div>
+            <div class="service">🎨 الإنفوجرافيك</div>
+            <div class="service">💼 تصميم السيرة الذاتية ATS</div>
+        </div>
+    </section>
 
-<p>شريكك نحو التميز الأكاديمي</p>
+    <!-- ====== لماذا سند ====== -->
+    <section id="why">
+        <h2>لماذا منصة سند؟</h2>
+        <ul>
+            <li>✔ جودة عالية</li>
+            <li>✔ تسليم في الموعد</li>
+            <li>✔ خصوصية تامة</li>
+            <li>✔ دعم مستمر</li>
+            <li>✔ أسعار حسب الطلب</li>
+        </ul>
+    </section>
 
+    <!-- ====== الأعمال السابقة ====== -->
+    <section id="portfolio">
+        <h2>الأعمال السابقة</h2>
+        <a href="https://wa.me/c/966557115545" class="btn primary">مشاهدة أعمال طلابنا</a>
+    </section>
+
+    <!-- ====== نموذج طلب الخدمة ====== -->
+    <section id="request">
+        <h2>نموذج طلب خدمة</h2>
+        <form>
+            <input type="text" placeholder="الاسم الكامل" required />
+            <input type="tel" placeholder="رقم الجوال" required />
+            <input type="email" placeholder="البريد الإلكتروني" required />
+            <select required>
+                <option value="">الخدمة المطلوبة</option>
+                <option>حلول الاختبارات</option>
+                <option>البحوث العلمية</option>
+                <option>الأسايمنت</option>
+                <option>المشاريع الجامعية</option>
+                <option>عروض البوربوينت</option>
+                <option>الخرائط الذهنية</option>
+                <option>الإنفوجرافيك</option>
+                <option>السيرة الذاتية</option>
+            </select>
+            <textarea placeholder="تفاصيل الطلب" rows="4"></textarea>
+            <input type="file" multiple />
+            <button type="submit" class="btn primary">إرسال الطلب</button>
+        </form>
+    </section>
+
+    <!-- ====== التواصل ====== -->
+    <footer>
+        <h2>التواصل معنا</h2>
+        <p>📱 واتساب: <a href="https://wa.me/966557115545">+966557115545</a></p>
+        <p>📧 البريد الإلكتروني: <a href="mailto:sanadplatform19@gmail.com">sanadplatform19@gmail.com</a></p>
+    </footer>
+
+    <!-- زر واتساب عائم -->
+    <a href="https://wa.me/966557115545" class="float-whatsapp" target="_blank">💬</a>
+
+    <!-- ربط ملف الحركات -->
+    <script src="script.js"></script>
 </body>
-</html>
+      </html>
